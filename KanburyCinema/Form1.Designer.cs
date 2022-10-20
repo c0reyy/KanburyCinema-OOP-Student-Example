@@ -134,6 +134,7 @@
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(120, 20);
             this.textBoxName.TabIndex = 11;
+            this.textBoxName.TextChanged += new System.EventHandler(this.textBoxName_TextChanged);
             // 
             // labelName
             // 
@@ -143,6 +144,7 @@
             this.labelName.Size = new System.Drawing.Size(70, 13);
             this.labelName.TabIndex = 10;
             this.labelName.Text = "Movie Name:";
+            this.labelName.Click += new System.EventHandler(this.labelName_Click);
             // 
             // pictureBoxMovie
             // 
@@ -153,6 +155,7 @@
             this.pictureBoxMovie.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxMovie.TabIndex = 12;
             this.pictureBoxMovie.TabStop = false;
+            this.pictureBoxMovie.Click += new System.EventHandler(this.pictureBoxMovie_Click);
             // 
             // Form1
             // 
